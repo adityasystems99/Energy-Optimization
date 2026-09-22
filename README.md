@@ -84,6 +84,18 @@ ConstructIQ fuses telemetry and machine learning predictions across 4 critical p
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
+│   │   │   ├── landing/           # Awwwards-grade 3D WebGL landing experience
+│   │   │   │   ├── HeroScene.jsx             # Three.js 3D digital twin (crane, site mesh, floor levels)
+│   │   │   │   ├── HeroHUD.jsx               # Technical holographic HUD overlay & live telemetry
+│   │   │   │   ├── LandingNav.jsx            # Glassmorphic navigation with system health pill
+│   │   │   │   ├── IntelligencePillars.jsx   # 4-pillar deep dive with interactive cards & live metrics
+│   │   │   │   ├── AIRiskNarratorSection.jsx # Simulated streaming Gemini reasoning terminal
+│   │   │   │   ├── DashboardPreview.jsx      # Isometric 3D command center perspective preview
+│   │   │   │   ├── RiskEngineSection.jsx     # Mathematical composite risk formula breakdown
+│   │   │   │   ├── ArchitectureFlow.jsx      # End-to-end topological pipeline visualization
+│   │   │   │   ├── TechStackSection.jsx      # High-performance tech stack showcase
+│   │   │   │   ├── FinalCTA.jsx              # Cinematic call-to-action section
+│   │   │   │   └── LandingFooter.jsx         # Industrial-grade telemetry footer
 │   │   │   ├── AIBrief.jsx        # AI Narrator with streaming typewriter & copy
 │   │   │   ├── AIChatModal.jsx    # Interactive AI copilot chat assistant
 │   │   │   ├── ClashTable.jsx     # BIM clashes matrix with floor/severity filters
@@ -94,14 +106,14 @@ ConstructIQ fuses telemetry and machine learning predictions across 4 critical p
 │   │   │   ├── ProgressChart.jsx  # Planned vs Actual vs Forecasted S-curve
 │   │   │   └── RiskGauge.jsx      # Dynamic SVG multi-pillar risk gauge
 │   │   ├── pages/
-│   │   │   ├── Dashboard.jsx      # Command center view
-│   │   │   └── Landing.jsx        # Value proposition & live ticker landing page
+│   │   │   ├── Dashboard.jsx      # Command center view with live analytical telemetry
+│   │   │   └── Landing.jsx        # Awwwards-tier landing page with GSAP entrance & 3D twin
 │   │   ├── App.jsx                # View router
-│   │   ├── index.css              # Ultra-premium glassmorphic dark design system
+│   │   ├── index.css              # Ultra-premium glassmorphic dark design system & HUD tokens
 │   │   └── main.jsx               # React DOM mount
-│   ├── index.html                 # SEO & font typography tags
+│   ├── index.html                 # SEO, Google Fonts & viewport metadata
 │   ├── vite.config.js             # Vite configuration & backend proxy
-│   └── package.json               # Node packages
+│   └── package.json               # Node packages (Three.js, GSAP, React)
 ├── BIMmodelvalidator.py           # Original script (preserved)
 ├── constructionprogress.py        # Original script (preserved)
 ├── costoverrun.py                 # Original script (preserved)
